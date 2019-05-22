@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "923391876732",
+    "firebase_url": "https://nugl-da5c2.firebaseio.com",
+    "project_id": "nugl-da5c2",
+    "storage_bucket": "nugl-da5c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923391876732:android:01f16bd95db8c691",
+        "android_client_info": {
+          "package_name": "com.goboxy.nugl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923391876732-k0ucli8tkuioe339rjnilmt5cnlt2jp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goboxy.nugl",
+            "certificate_hash": "e00fa07a73318f2f7518c5b8a6490e54e13961d3"
+          }
+        },
+        {
+          "client_id": "923391876732-5840muotonha12hodtgrjhgqv8h5r3qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxDtvCZg2KX4aEUIhKODV4NIcCx1qgm9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923391876732-5840muotonha12hodtgrjhgqv8h5r3qh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

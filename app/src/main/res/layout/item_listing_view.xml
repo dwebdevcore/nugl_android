@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_listing_height"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/itemListingImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/itemListingNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:text="The Green Rose"
+        app:layout_constraintStart_toEndOf="@id/itemListingImageView"
+        app:layout_constraintTop_toTopOf="@id/itemListingImageView" />
+
+    <TextView
+        android:id="@+id/itemListingLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Los Angeles, CA"
+        app:layout_constraintBottom_toBottomOf="@id/itemListingImageView"
+        app:layout_constraintStart_toStartOf="@id/itemListingNameTextView"
+        app:layout_constraintTop_toTopOf="@id/itemListingImageView" />
+
+    <TextView
+        android:id="@+id/itemListingDistanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:text="52 miles away"
+        app:layout_constraintBottom_toBottomOf="@id/itemListingImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/itemListingImageView" />
+
+</android.support.constraint.ConstraintLayout>

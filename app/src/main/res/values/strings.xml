@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Nugl</string>
+    <string name="menu_main_tab_home">Home</string>
+    <string name="menu_main_tab_search">Search</string>
+    <string name="menu_main_tab_account">Account</string>
+    <string name="menu_title_search_map">Show Map</string>
+    <string name="menu_title_search_list">Show List</string>
+    <string name="menu_title_filter">Filter</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_confirm_password">Passwords must match</string>
+    <string name="error_tos_not_agreed">You must agree to the Terms of Service</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_recover_password">Recover Password</string>
+    <string name="action_submit">Submit</string>
+    <string name="recover_password_success_message">An email to reset your password was sent.</string>
+    <string name="title_sign_up">Sign Up</string>
+    <string name="sign_up_subtitle">For your free NUGL account</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="message_terms_of_service">I understand NUGL.com does not sell or handle marijuana or marijuana products. NUGL is a Software as a Service (SaaS) and directory that does not police licensing and compliance in any given city, state or nation, and it is my responsibility to follow these laws.</string>
+</resources>

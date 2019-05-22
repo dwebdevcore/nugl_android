@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#3F51B5</color>
+    <color name="color_primary_dark">#303F9F</color>
+    <color name="color_accent">#00a1e4</color>
+    <color name="text_color_default">#9e9e9e</color>
+
+    <color name="ic_launcher_background">#eb008b</color>
+
+    <color name="toolbar_color_1">@color/ic_launcher_background</color>
+    <color name="toolbar_color_2">@color/color_accent</color>
+    <color name="toolbar_color_3">#04e762</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_translucent">#64ffffff</color>
+</resources>
